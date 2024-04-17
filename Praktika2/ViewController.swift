@@ -8,11 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet var greetingView: UIStackView!
+    @IBOutlet var greetingButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+        greetingView.layer.cornerRadius = 90
+        
+        }
 
 
 }
